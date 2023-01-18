@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "-goit-node-hw-01-cli-app-draft-i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vokur13/-goit-node-hw-01-cli-app-draft-i.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vokur13/-goit-node-hw-01-cli-app-draft-i/issues"
+  },
+  "homepage": "https://github.com/vokur13/-goit-node-hw-01-cli-app-draft-i#readme",
+   "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uid": "^2.0.1"
+  }
+}
